@@ -49,7 +49,7 @@ function App() {
     if (username) {
 
       const provider = new SocketIOProvider("/", "monaco", ydoc, {
-        autoConnect: true,
+        autoConnect: true, 
       })
 
       provider.awareness.setLocalStateField("user", { username })
